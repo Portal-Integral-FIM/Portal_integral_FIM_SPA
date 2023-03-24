@@ -4,7 +4,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 import routes from '~pages'
 /* Theme variables */
-import './theme/variables.css'
+import './theme/variables.css' // TODO: IMPORTAR TODOS LOS CSS DE LA CARPETA CSS
 const pinia = createPinia()
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),

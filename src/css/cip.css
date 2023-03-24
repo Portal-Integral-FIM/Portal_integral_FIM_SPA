@@ -1,0 +1,161 @@
+.divider{
+    border-top: 1px dashed #bbb;
+}
+
+.frame {
+    position: relative;
+    width: 600px;
+    height: 1000px;
+    background: #FFFFFF;
+}
+
+.box {
+    position: absolute;
+    width: 551px;
+    height: 960px;
+    left: 25px;
+    top: 23px;
+    background: rgba(196, 196, 196, 0.08);
+    border: 1px solid rgba(0, 0, 0, 0.29);
+    box-sizing: border-box;
+}
+
+.rectangle {
+    position: relative;
+    width: auto;
+    height: 79px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: Arial;
+}
+
+.bg-clean {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
+/*Cosas para el navbar*/
+.header {
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.671);
+    margin-bottom: 30px;
+}
+
+.nav-logo {
+    text-decoration: solid;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: white;
+}
+
+
+.menu-link {
+    color: black;
+    text-decoration: solid;
+}
+
+.menu-link:hover {
+    color: #f1a631;
+}
+
+.photoUser {
+    width: 40px;
+    height: 40px;
+    margin-right: 2rem;
+    border-radius: 50%;
+    background-color: #f1a631;
+}
+
+/*Grid de enlaces*/
+.div-main {
+    display: flex;
+    justify-content: center;
+}
+
+
+.div-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.div-body {
+    margin-bottom: 8rem;
+}
+
+/* div-body ul li */
+.flex-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+/*div-body ul li a img */
+.box-shadow-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.425);
+}
+
+.box-shadow-img:hover {
+    opacity: 50%;
+    background-color: #f1a631;
+}
+
+/*div-body ul li a*/
+.box-shadow {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+/*div-body ul li a*/
+.box-shadow-link {
+    color: #007141;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.box-shadow-link:hover {
+    color: #f1a631;
+    text-decoration: underline;
+}
+
+
+footer {
+    width: 100%;
+    height: 80px;
+    padding: 2rem;
+    background-color: #007141;
+}
+
+footer a {
+    height: auto;
+    color: #f1a631;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f1a631;
+}
+
+footer img {
+    padding-right: 10px;
+    height: 30px;
+}
