@@ -2,10 +2,10 @@
 Implementacion del Portal Integral FIM como SPA. 
 
 ## Lista de objetivos:
-Importar todas las paginas que no utilizen VUE (convertir js vanilla a script setup y html a template)
-Crear componentes globales: 
-  1. navbar (Ya existe pero hay que darle estilo y funcionalidad)
-  2. footer
+- Importar todas las paginas que no utilizen VUE (convertir js vanilla a script setup y html a template)
+- Crear componentes globales: 
+    1. navbar (Ya existe pero hay que darle estilo y funcionalidad)
+    2. footer
 - Adaptar paginas que tengan una app de Vue a setup syntax
 - Adaptar paginas para utlizar Vue syntax en donde haga falta
 - Reemplzar onCLick vanilla listeners por @click vue listeners
