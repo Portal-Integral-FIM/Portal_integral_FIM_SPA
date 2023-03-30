@@ -20,9 +20,7 @@
     "types": [
       "vite/client",
       "vue/ref-macros",
-      "vite-plugin-pwa/client",
       "vite-plugin-pages/client",
-      "@intlify/unplugin-vue-i18n/messages"
     ],
     "paths": {
       "~/*": [
