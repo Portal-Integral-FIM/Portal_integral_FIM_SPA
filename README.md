@@ -16,4 +16,5 @@ Implementacion del Portal Integral FIM como SPA.
 - Crear funciones reutilizables para hacer tareas comunes repetitivas (ejemplo subir archivo)
 - Instalar por npm el modulo de thedatepicker e importarlo en donde se requiera el componente
 - Reemplazar uso de funciones y librerias por CDN a imports modulares de ES6
-... PENDIENTE AGREGAR MAS COSAS POR HACER .. 
+- Reemplzaruso de api window.replace por enrutador de VUE 
+... PENDIENTE AGREGAR MAS COSAS POR HACER .. az
